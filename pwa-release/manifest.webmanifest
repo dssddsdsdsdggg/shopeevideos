@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "Shopee Vídeo Studio",
+  "short_name": "Shopee Studio",
+  "description": "Crie prompts, narrações, legendas e edições de vídeo para produtos da Shopee.",
+  "lang": "pt-BR",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f5f7fb",
+  "theme_color": "#ed5b3a",
+  "categories": ["photo", "video", "productivity"],
+  "icons": [
+    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Criar prompt", "short_name": "Criar", "url": "./?view=creator", "icons": [{"src": "./icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Áudio no vídeo", "short_name": "Áudio", "url": "./?view=audio", "icons": [{"src": "./icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
